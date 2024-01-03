@@ -2,7 +2,7 @@
   <nav class="flex items-center justify-between px-4 py-4 font-Roboto ">
     <div class="flex items-center space-x-3">
       <span class="h-4 w-4 bg-orange-400 rounded-full lg:h-7 lg:w-7 hover:bg-teal-400"></span>
-      <RouterLink to="/" class="text-xl lg:text-4xl font-bold hover:text-orange-400 transition-all ease-linear">Edeme
+      <RouterLink to="/" class="text-2xl lg:text-4xl font-bold hover:text-orange-400 transition-all ease-linear">Edeme
         Ekomobong</RouterLink>
       <span
         class="hidden lg:block text-sm mt-2 lg:text-base 2xl:text-xl hover:text-2xl transition-all ease-in-out cursor-pointer">Web
