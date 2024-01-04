@@ -1,7 +1,7 @@
 <template>
   <nav class="flex items-center justify-between px-4 py-4 font-Roboto ">
     <div class="flex items-center space-x-3">
-      <span class="h-4 w-4 bg-orange-400 rounded-full lg:h-7 lg:w-7 hover:bg-teal-400"></span>
+      <span class="h-4 w-4 bg-orange rounded-full lg:h-7 lg:w-7 hover:bg-teal-400"></span>
       <RouterLink to="/" class="text-2xl lg:text-4xl font-bold hover:text-orange-400 transition-all ease-linear">Edeme
         Ekomobong</RouterLink>
       <span
@@ -9,13 +9,13 @@
         Developer</span>
     </div>
     <div class="hidden lg:block space-x-4 pr-6 text-xl">
-      <RouterLink to="/resume" class="border-r border-black pr-3 hover:text-indigo-400 transition-colors ease-in-out">
+      <RouterLink to="/resume" class="border-r border-black pr-3 hover:text-orange transition-colors ease-in-out">
         Resume
       </RouterLink>
-      <RouterLink to="/projects" class="border-r border-black pr-3 hover:text-indigo-400 transition-colors ease-in-out">
+      <RouterLink to="/projects" class="border-r border-black pr-3 hover:text-orange transition-colors ease-in-out">
         Projects
       </RouterLink>
-      <RouterLink to="/contact" class="hover:text-indigo-400 transition-colors ease-in-out">Contact</RouterLink>
+      <RouterLink to="/contact" class="hover:text-orange transition-colors ease-in-out">Contact</RouterLink>
     </div>
     <button v-if="!isShowing" class="lg:hidden" @click="handleDrop">
       <Bar />
@@ -69,4 +69,5 @@ const closeDrop = () => {
 .slide-enter-to,
 .slide-leave-from {
   transform: translateX(0);
-}</style>
+}
+</style>

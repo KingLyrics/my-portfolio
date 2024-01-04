@@ -8,6 +8,5 @@ import Footer from './components/Footer.vue';
   <div class="bg-gray-200 min-h-screen scroll-smooth relative">
     <Navbar />
     <RouterView />
-    <Footer />
   </div>
 </template>
