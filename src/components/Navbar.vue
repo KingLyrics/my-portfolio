@@ -24,13 +24,15 @@
       <Close />
     </button>
   </nav>
-  <div v-show="isShowing" class="bg-gray-200 min-h-screen z-10 absolute w-full top-0">
-    <div class="text-center flex justify-center items-center flex-col h-[100vh] text-4xl font-Roboto space-y-12">
-      <RouterLink to="/resume" @click="closeDrop">Resume</RouterLink>
-      <RouterLink to="/projects" @click="closeDrop">Projects</RouterLink>
-      <RouterLink to="/contact" @click="closeDrop">Contact</RouterLink>
+  <transition name="slide">
+    <div v-show="isShowing" class="bg-gray-200 min-h-screen z-10 absolute w-full top-0 dropdownContent">
+      <div class="text-center flex justify-center items-center flex-col h-[100vh] text-4xl font-Roboto space-y-12">
+        <RouterLink to="/resume" @click="closeDrop">Resume</RouterLink>
+        <RouterLink to="/projects" @click="closeDrop">Projects</RouterLink>
+        <RouterLink to="/contact" @click="closeDrop">Contact</RouterLink>
+      </div>
     </div>
-  </div>
+  </transition>
 </template>
 
 <script setup>
@@ -38,6 +40,7 @@ import Bar from '@/components/icons/Bar.vue'
 import Close from '@/components/icons/Close.vue'
 import { ref } from 'vue';
 import { RouterLink } from 'vue-router';
+
 
 const isShowing = ref(false)
 
@@ -48,4 +51,22 @@ const handleDrop = () => {
 const closeDrop = () => {
   isShowing.value = false
 };
+
 </script>
+
+
+<style scoped>
+.slide-enter-active,
+.slide-leave-active {
+  transition: transform 0.6s ease-in-out;
+}
+
+.slide-enter-from,
+.slide-leave-to {
+  transform: translateX(100%);
+}
+
+.slide-enter-to,
+.slide-leave-from {
+  transform: translateX(0);
+}</style>
