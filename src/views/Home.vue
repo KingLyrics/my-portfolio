@@ -7,7 +7,8 @@
         <img src="/Me.jpeg" alt="" class="rounded-full mt-10 w-[550px] ">
       </div>
       <div class="mt-10 flex flex-col md:pl-7 ">
-        <h1 class="text-4xl font-Josefin font-[500] md:text-5xl">Hey there👋🏿</h1>
+        <h1 class="text-4xl font-Josefin font-[500] md:text-5xl">Hey there <span class="wave">👋🏿</span>
+        </h1>
         <p class="text-xl mt-3 font-Josefin w-[400px] md:text-2xl md:w-[500px] "> I'm Ekomobong, a passionate web
           developer
           with a flair
@@ -45,6 +46,49 @@ onMounted(() => {
 
 
 <style scoped>
+.wave {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0.0deg)
+  }
+
+  10% {
+    transform: rotate(14.0deg)
+  }
+
+  20% {
+    transform: rotate(-8.0deg)
+  }
+
+  30% {
+    transform: rotate(14.0deg)
+  }
+
+  40% {
+    transform: rotate(-4.0deg)
+  }
+
+  50% {
+    transform: rotate(10.0deg)
+  }
+
+  60% {
+    transform: rotate(0.0deg)
+  }
+
+  100% {
+    transform: rotate(0.0deg)
+  }
+}
+
+
 .slide-fade-enter-active {
   transition: all 0.7s ease-out;
 }
