@@ -32,10 +32,12 @@
     </main>
   </transition>
   <Technology />
+  <About />
 </template>
 
 
 <script setup>
+import About from '@/components/About.vue';
 import Circle from '@/components/Circle.vue'
 import Technology from '@/components/Technology.vue';
 import { onMounted, ref } from 'vue';
