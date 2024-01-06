@@ -3,7 +3,7 @@
     <h1 class="text-center font-Josefin text-4xl pb-10">My Tech Stack</h1>
     <div>
       <div class="grid grid-cols-1 place-items-center  place-content-center lg:grid-cols-2 ">
-        <img v-for="(Image, index) in Images" :key="index" :src="Image.pic" :alt="Image.alt" class="py-4 pr-10 h-48">
+        <img v-for="(Image, index) in Images" :key="index" :src="Image.pic" :alt="Image.alt" class="py-4 h-48">
       </div>
     </div>
   </div>
