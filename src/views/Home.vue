@@ -4,7 +4,7 @@
     <main v-show="pageLoaded"
       class=" px-5 flex flex-col-reverse md:flex md:items-center md:flex-row md:justify-center md:mt-36 ">
       <div class=" flex justify-center md:flex-none">
-        <img src="/Me.jpeg" alt="" class="rounded-full mt-10 w-[550px] ">
+        <img src="/Me.jpeg" alt="" class="rounded-full mt-10 md:w-[400px] ">
       </div>
       <div class="mt-10 flex flex-col md:pl-7 ">
         <h1 class="text-4xl font-Josefin font-[500] md:text-5xl">Hey there <span class="wave">👋🏿</span>
@@ -24,7 +24,7 @@
             <Circle text="Projects" color="bg-deepGray" height="md:h-28 md:w-28 md:text-xl" />
           </RouterLink>
           <RouterLink to="/contact">
-            <Circle text="Contact" color="bg-deepBlue text-white md:text-xl" height="md:h-28 md:w-28" />
+            <Circle text="Contact" color="bg-deepBlue text-white hover:text-black md:text-xl" height="md:h-28 md:w-28" />
           </RouterLink>
         </div>
       </div>
