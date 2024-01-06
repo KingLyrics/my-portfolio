@@ -9,7 +9,8 @@
       <div class="mt-10 flex flex-col md:pl-7 ">
         <h1 class="text-4xl font-Josefin font-[500] md:text-5xl">Hey there <span class="wave">👋🏿</span>
         </h1>
-        <p class="text-xl mt-3 pr-3 font-Josefin w-[400px] md:text-2xl md:w-[500px] "> I'm Ekomobong, a passionate web
+        <p class="text-xl mt-3 pr-3 font-Josefin w-[400px] md:text-2xl md:w-[500px] md:pr-0 "> I'm Ekomobong, a passionate
+          web
           developer
           with a flair
           for
