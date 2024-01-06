@@ -4,12 +4,12 @@
     <main v-show="pageLoaded"
       class=" px-5 flex flex-col-reverse md:flex md:items-center md:flex-row md:justify-center md:mt-36 ">
       <div class=" flex justify-center md:flex-none">
-        <img src="/Me.jpeg" alt="" class="rounded-full mt-10 md:w-[400px] ">
+        <img src="/Me.jpeg" alt="" class="rounded-full mt-10 md:w-[400px] pr-3 ">
       </div>
       <div class="mt-10 flex flex-col md:pl-7 ">
         <h1 class="text-4xl font-Josefin font-[500] md:text-5xl">Hey there <span class="wave">👋🏿</span>
         </h1>
-        <p class="text-xl mt-3 font-Josefin w-[400px] md:text-2xl md:w-[500px] "> I'm Ekomobong, a passionate web
+        <p class="text-xl mt-3 pr-3 font-Josefin w-[400px] md:text-2xl md:w-[500px] "> I'm Ekomobong, a passionate web
           developer
           with a flair
           for
@@ -30,11 +30,13 @@
       </div>
     </main>
   </transition>
+  <Technology />
 </template>
 
 
 <script setup>
 import Circle from '@/components/Circle.vue'
+import Technology from '@/components/Technology.vue';
 import { onMounted, ref } from 'vue';
 import { RouterLink } from 'vue-router';
 const pageLoaded = ref(false)
@@ -42,6 +44,8 @@ const pageLoaded = ref(false)
 onMounted(() => {
   pageLoaded.value = !pageLoaded.value
 });
+
+
 </script>
 
 

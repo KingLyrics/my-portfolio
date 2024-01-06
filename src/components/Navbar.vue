@@ -17,7 +17,7 @@
       </RouterLink>
       <RouterLink to="/contact" class="hover:text-orange transition-colors ease-in-out">Contact</RouterLink>
     </div>
-    <button v-if="!isShowing" class="lg:hidden" @click="handleDrop">
+    <button v-if="!isShowing" class="lg:hidden pr-2" @click="handleDrop">
       <Bar />
     </button>
     <button v-else @click="closeDrop" class="z-50">
