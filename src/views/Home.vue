@@ -18,12 +18,7 @@
           approach
           to web development.</p>
         <div class="flex items-center justify-evenly mt-5 space-x-3">
-          <RouterLink to="/resume">
-            <Circle text="Resume" color="bg-orange" height="md:h-28 md:w-28 md:text-xl" />
-          </RouterLink>
-          <RouterLink to="/projects">
-            <Circle text="Projects" color="bg-deepGray" height="md:h-28 md:w-28 md:text-xl" />
-          </RouterLink>
+
         </div>
       </div>
     </main>
