@@ -14,6 +14,7 @@
           <img src="/instagram.svg" alt="">
         </a>
       </div>
+      <div class="mt-2 text-sm">&copy;2024 Ekomobong Edeme</div>
     </div>
   </footer>
 </template>
