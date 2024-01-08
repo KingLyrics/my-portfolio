@@ -5,7 +5,7 @@ import Footer from './components/Footer.vue';
 </script>
 
 <template>
-  <div class="bg-gray-200 min-h-screen w-[100%] scroll-smooth relative">
+  <div class="bg-gray-200 min-h-screen overflow-y-hidden scroll-smooth relative">
     <Navbar />
     <RouterView />
   </div>
