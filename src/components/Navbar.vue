@@ -9,10 +9,11 @@
         Developer</span>
     </div>
     <div class="hidden lg:block space-x-4 pr-6 text-xl">
-      <RouterLink to="/resume" class="border-r border-black pr-3 hover:text-orange transition-colors ease-in-out">
+      <RouterLink to="/resume" active-class="text-orange"
+        class="border-r border-black pr-3 hover:text-orange transition-colors ease-in-out">
         Resume
       </RouterLink>
-      <RouterLink to="/projects" class="pr-3 hover:text-orange transition-colors ease-in-out">
+      <RouterLink to="/projects" active-class="text-orange" class="pr-3 hover:text-orange transition-colors ease-in-out">
         Projects
       </RouterLink>
 
@@ -27,8 +28,8 @@
   <transition name="slide">
     <div v-show="isShowing" class="bg-gray-200 min-h-screen z-10 absolute w-full top-0 dropdownContent">
       <div class="text-center flex justify-center items-center flex-col h-[100vh] text-4xl font-Roboto space-y-12">
-        <RouterLink to="/resume" @click="closeDrop">Resume</RouterLink>
-        <RouterLink to="/projects" @click="closeDrop">Projects</RouterLink>
+        <RouterLink to="/resume" active-class="text-orange" @click="closeDrop">Resume</RouterLink>
+        <RouterLink to="/projects" active-class="text-orange" @click="closeDrop">Projects</RouterLink>
       </div>
     </div>
   </transition>
