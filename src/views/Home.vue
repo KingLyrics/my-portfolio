@@ -24,15 +24,13 @@
           <RouterLink to="/projects">
             <Circle text="Projects" color="bg-deepGray" height="md:h-28 md:w-28 md:text-xl" />
           </RouterLink>
-          <RouterLink to="/contact">
-            <Circle text="Contact" color="bg-deepBlue text-white  md:text-xl" height="md:h-28 md:w-28" />
-          </RouterLink>
         </div>
       </div>
     </main>
   </transition>
   <About />
   <Technology />
+  <ProjectPreview />
 </template>
 
 

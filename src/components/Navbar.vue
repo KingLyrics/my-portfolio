@@ -12,10 +12,10 @@
       <RouterLink to="/resume" class="border-r border-black pr-3 hover:text-orange transition-colors ease-in-out">
         Resume
       </RouterLink>
-      <RouterLink to="/projects" class="border-r border-black pr-3 hover:text-orange transition-colors ease-in-out">
+      <RouterLink to="/projects" class="pr-3 hover:text-orange transition-colors ease-in-out">
         Projects
       </RouterLink>
-      <RouterLink to="/contact" class="hover:text-orange transition-colors ease-in-out">Contact</RouterLink>
+
     </div>
     <button v-if="!isShowing" class="lg:hidden pr-2" @click="handleDrop">
       <Bar />
@@ -29,7 +29,6 @@
       <div class="text-center flex justify-center items-center flex-col h-[100vh] text-4xl font-Roboto space-y-12">
         <RouterLink to="/resume" @click="closeDrop">Resume</RouterLink>
         <RouterLink to="/projects" @click="closeDrop">Projects</RouterLink>
-        <RouterLink to="/contact" @click="closeDrop">Contact</RouterLink>
       </div>
     </div>
   </transition>
