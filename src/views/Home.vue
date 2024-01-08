@@ -17,24 +17,18 @@
           crafting seamless digital experiences. From front-end finesse to back-end brilliance, I bring a holistic
           approach
           to web development.</p>
-        <div class="flex items-center justify-evenly mt-5 space-x-3">
-
-        </div>
       </div>
     </main>
   </transition>
-  <About />
-  <Technology />
-  <ProjectPreview />
+  <About v-motion-slide-visible-once-right />
+  <Technology v-motion-slide-visible-once-right />
 </template>
 
 
 <script setup>
 import About from '@/components/About.vue';
-import Circle from '@/components/Circle.vue'
 import Technology from '@/components/Technology.vue';
 import { onMounted, ref } from 'vue';
-import { RouterLink } from 'vue-router';
 const pageLoaded = ref(false)
 
 onMounted(() => {

@@ -6,7 +6,9 @@
         <img v-for="(Image, index) in Images" :key="index" :src="Image.pic" :alt="Image.alt" class="py-4 h-48">
       </div>
     </div>
-    <h1 class="text-center my-44 lg:my-96 text-2xl font-Josefin lg:text-4xl ">Let's work together to turn your ideas into
+    <h1 class="text-center my-44 lg:my-96 text-2xl font-Josefin lg:text-4xl hover:scale-150 transition-all ease-in-out ">
+      Let's work together to turn
+      your ideas into
       a reality
     </h1>
   </div>
