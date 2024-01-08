@@ -1,5 +1,5 @@
 <template>
-  <footer class="border-black border-t pb-11 px-5 font-Josefin lg:flex items-center justify-evenly">
+  <footer class="border-black border-t pb-11 px-5 font-Josefin lg:flex items-center justify-around">
     <div class="pt-5">
       <h1 class="text-xl">Email</h1>
       <p class="font-Roboto"><a href="mailto:ekom338.com@gmail.com">ekom338.com@gmail.com</a></p>
@@ -14,8 +14,8 @@
           <img src="/instagram.svg" alt="">
         </a>
       </div>
-      <div class="mt-2 text-sm">&copy;2024 Ekomobong Edeme</div>
     </div>
+    <div class="mt-2 text-sm">&copy;2024 Ekomobong Edeme</div>
   </footer>
 </template>
 
