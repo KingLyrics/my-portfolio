@@ -12,7 +12,6 @@ import { ref, onMounted, onBeforeUnmount } from 'vue';
 const isVisible = ref(false);
 
 const handleScroll = () => {
-
   isVisible.value = window.scrollY > 20;
 };
 

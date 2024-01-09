@@ -1,4 +1,3 @@
-
 <template>
   <div>
     <transition name="slide-fade">
