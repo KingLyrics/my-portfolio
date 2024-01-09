@@ -13,9 +13,12 @@
         <a href="https://www.instagram.com/mr_eisthename/">
           <img src="/instagram.svg" alt="">
         </a>
+        <a href="https://github.com/KingLyrics">
+          <img src="/github.svg" alt="">
+        </a>
       </div>
     </div>
-    <div class="mt-2 text-sm">&copy;2024 Ekomobong Edeme</div>
+    <div class="mt-4 lg:mt-0 text-sm">&copy;2024 Ekomobong Edeme</div>
   </footer>
 </template>
 

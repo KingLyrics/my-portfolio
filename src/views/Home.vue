@@ -24,14 +24,12 @@
     </transition>
     <About v-motion-slide-visible-once-right />
     <Technology v-motion-slide-visible-once-right />
-    <ScrollToTopButton />
   </div>
 </template>
 
 
 <script setup>
 import About from '@/components/About.vue';
-import ScrollToTopButton from '@/components/ScrollToTopButton.vue';
 import Technology from '@/components/Technology.vue';
 import { onMounted, ref } from 'vue';
 const pageLoaded = ref(false)

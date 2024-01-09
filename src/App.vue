@@ -6,7 +6,9 @@
         <component :is="Component" />
       </transition>
     </RouterView>
+    <ScrollToTopButton />
     <Footer />
+
   </div>
 </template>
 
@@ -14,6 +16,7 @@
 import { RouterView } from 'vue-router';
 import Navbar from './components/Navbar.vue';
 import Footer from './components/Footer.vue';
+import ScrollToTopButton from './components/ScrollToTopButton.vue';
 </script>
 
 <style>
