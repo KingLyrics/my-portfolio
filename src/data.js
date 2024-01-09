@@ -1,5 +1,11 @@
 const data = [
   {
+    timeWorked: "Jan 2024 - Present",
+    role: "Frontend Developer Intern",
+    company: "InternPulse",
+    desc: `During my internship as a frontend developer, I focused on HTML and CSS development to structure and style web pages. Ensuring responsive design, I optimized applications for various devices. JavaScript was employed to enhance user interactivity, and I collaborated with frameworks like React and Vue for dynamic interfaces.`,
+  },
+  {
     timeWorked: "Sep 2023 - Present",
     role: "Frontend Developer Intern",
     company: "IEnergyUp-InnovationLab",
@@ -7,12 +13,6 @@ const data = [
     and visually
     appealing web pages for an enhanced user experience. Participated in code reviews, providing constructive
     feedback to elevate code quality and maintainability.`,
-  },
-  {
-    timeWorked: "Jan 2024 - Present",
-    role: "Frontend Developer Intern",
-    company: "InternPulse",
-    desc: `During my internship as a frontend developer, I focused on HTML and CSS development to structure and style web pages. Ensuring responsive design, I optimized applications for various devices. JavaScript was employed to enhance user interactivity, and I collaborated with frameworks like React and Vue for dynamic interfaces.`,
   },
   {
     timeWorked: "May 2023 - Jun 2023",

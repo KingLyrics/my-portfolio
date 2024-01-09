@@ -39,12 +39,14 @@
         </div>
       </div>
     </div>
+    <ScrollToTopButton />
   </div>
 </template>
 <!-- Frontend: 
 -->
 
 <script setup>
+import ScrollToTopButton from '@/components/ScrollToTopButton.vue';
 import data from '@/data';
 
 </script>
