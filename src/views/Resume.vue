@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-sm mx-auto font-Josefin lg:max-w-4xl">
+  <div class="max-w-sm mx-auto font-Josefin lg:max-w-4xl px-4 lg:px-0">
     <h1 class="text-3xl font-Noto my-10">Resume</h1>
     <div class="md:flex items-center justify-between md:space-x-48 border border-b-black">
       <div>
