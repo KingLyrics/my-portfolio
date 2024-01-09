@@ -17,7 +17,7 @@
         </div>
       </div>
     </div>
-    <div class="md:flex mt-12 items-center md:space-x-48 pb-10">
+    <div class="md:flex mt-12 items-center md:space-x-48 px-3 pb-10">
       <div class="pb-10">
         <h2 class="text-3xl pb-4" v-motion-pop-visible>Skills <br> & Expertise</h2>
         <h2 class="text-xl pb-2">Tech Toolbox 🧰</h2>
