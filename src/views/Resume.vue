@@ -6,7 +6,7 @@
         <h2 class="text-3xl pb-9">Work <br> Experience</h2>
       </div>
       <div class="">
-        <div class="mt-5" v-for="(data, index) in data" :key="index">
+        <div class="mt-5 pb-3" v-for="(data, index) in data" :key="index">
           <h1 class="text-2xl my-2 text- font-Roboto">
             {{ data.timeWorked }}
           </h1>

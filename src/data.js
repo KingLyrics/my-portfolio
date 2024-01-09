@@ -9,7 +9,7 @@ const data = [
     feedback to elevate code quality and maintainability.`,
   },
   {
-    timeWorked: "August",
+    timeWorked: "May 2023 - Jun 2023",
     role: "Web Developer Intern",
     company: "PromptBroker",
     desc: "Engaged in frontend projects, collaborated with senior developers, and contributed to responsive and visually appealing web pages. Participated in code reviews and provided feedback for code quality and maintainability. ",
